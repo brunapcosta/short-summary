@@ -7,6 +7,7 @@
 #app > h1 {
   color: #996dff;
   margin-top: -5px;
+  font-size: 24px;
 }
 
 #app > h2 {
@@ -24,4 +25,29 @@
 #app .placeholder {
   color: #7c7c8a;
   user-select: none;
+}
+
+@media screen and (max-width: 700px) {
+  #app > img {
+    width: 75px;
+    height: 70px;
+  }
+
+  #app > h1 {
+    color: #996dff;
+    margin-top: -5px;
+    font-size: 24px;
+  }
+
+  #app > h2 {
+    align-self: center;
+    margin-top: 64px;
+  }
+
+  #app > p {
+    align-self: center;
+    text-align: center;
+    width: 512px;
+    margin-top: -5px;
+  }
 }
